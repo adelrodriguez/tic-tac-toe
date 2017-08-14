@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- META -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- STYLES -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="tic-tac-toe.css">
+
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="tic-tac-toe.js"></script>
+
+	<title>Tic Tac Toe</title>
+</head>
+<body>
+	<div id="choose">
+		<h1>Play As...</h1>
+		<span class="cross">
+			<i class="fa fa-times" aria-hidden="true"></i>
+		</span>
+		<span class="circle">
+			<i class="fa fa-circle-o" aria-hidden="true"></i>
+		</span>
+	</div>
+	<div id="board" style="display: none">
+		<table >
+			<tr>
+				<td id="0" class="cell"></td>
+				<td id="1" class="cell"></td>
+				<td id="2" class="cell"></td>
+			</tr>
+			<tr>
+				<td id="3" class="cell"></td>
+				<td id="4" class="cell"></td>
+				<td id="5" class="cell"></td>
+				
+			</tr>
+			<tr>
+				<td id="6" class="cell"></td>
+				<td id="7" class="cell"></td>
+				<td id="8" class="cell"></td>
+			</tr>
+		</table>	
+	</div>
+	<div id="message" style="display: none"></div>
+</body>
+</html>
